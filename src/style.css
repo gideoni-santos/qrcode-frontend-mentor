@@ -1,0 +1,44 @@
+* {
+    font-family: "Outfit";
+}
+
+body {
+    background-color: #d6e2f0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.container {
+    background-color: white;
+    width: 290px;
+    height: 460px;
+    text-align: center;
+    margin-top: 70px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 10px 1px #00000028;
+}
+
+.container .qrcode {
+    width: 260px;
+    height: 260px;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+.container .titulo {
+    font-size: 20px;
+    font-weight: 700;
+    color: #1f3251;
+    margin: 20px;
+}
+
+.container .informacoes {
+    color: #7b879d;
+    font-weight: 400;
+    font-size: 15px;
+    margin: 20px;
+}
+
+
